@@ -1,0 +1,15 @@
+div{
+    width: 100px;
+    height: 100px;
+    border:2px solid brown;
+    display:inline-block;
+}
+#box2{
+    position: relative;
+    top:20px;
+    left: 15px;
+}
+#box1{
+    background-image:url(download.jpg);
+    background-size: cover;
+}

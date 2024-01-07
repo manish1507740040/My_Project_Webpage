@@ -1,0 +1,10 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    background-image:url(download.jpg);
+    background-size: cover;
+    position: absolute;
+    right:10px;
+
+}

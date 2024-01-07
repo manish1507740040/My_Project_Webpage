@@ -1,0 +1,33 @@
+div{
+    background-color: rgb(146, 88, 88);
+    
+   /* -- flex-wrap: wrap; */
+  
+}
+a{
+    text-decoration: none;
+    background-color: aqua;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+   
+}
+.outer{
+    height:400px;
+    width: 350px;
+    background-color:rgb(130,50,46) ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height:200px;
+    width:150px;
+    border-color: blue;
+}

@@ -1,0 +1,64 @@
+div{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    border:10px solid aquamarine;
+    /* background-color: blue; */
+    border-top:10px solid black;
+   animation: spin 3s ease-in 0s infinite normal;
+}
+
+@keyframes spin{
+    from
+    {
+        transform :rotate(0deg);
+    }
+    to
+    {
+        transform :rotate(360deg);
+    }
+
+
+}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    /* transition-property: all;
+    animation-name: animationk;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 5; */
+    /* transition-duration:2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s; */
+    /* transform:rotate(45deg); */
+
+/* div:hover{
+    /* background-color: blueviolet;
+    color:azure; */
+    /* transform: skew(45deg);
+}
+div:active{
+    border: 5px;
+    border-bottom: black;
+    background-color: yellow;
+}  */
+
+/* @keyframes animationk{
+    from{background-color: blue;}
+    to{background-color: aqua;}
+} */
